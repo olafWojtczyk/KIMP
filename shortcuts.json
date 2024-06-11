@@ -1,0 +1,9 @@
+{
+  "keys": [
+    {"shortcut": "Ctrl+N", "command": "action.file.new"},
+    {"shortcut":  "Ctrl+O", "command": "action.file.open"},
+    {"shortcut":  "Ctrl+S", "command": "action.file.save"},
+    {"shortcut":  "Ctrl+Shift+S", "command": "action.file.saveAs"},
+    {"shortcut":  "Ctrl+F4", "command": "action.exit"}
+  ]
+}
