@@ -1,0 +1,118 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<MainMenuBar>
+    <Menu label="File">
+        <Button label="New" shortcut="Ctrl+N" action="action.file.new"/>
+        <Button label="Open" shortcut="Ctrl+O" action="action.file.open"/>
+        <Button label="Save" shortcut="Ctrl+S" action="action.file.save"/>
+        <Button label="SaveAs" shortcut="Ctrl+Shift+S" action="action.file.saveAs"/>
+        <Separator />
+        <Button label="Import" action="action.file.import"/>
+        <Separator/>
+        <Menu label="Export">
+            <Button label="Quick export as PNG" shortcut="" action="action.workspace.exportPNG"/>
+            <Button label="Export as..." shortcut="Alt+Shift+Ctrl+W" action="action.workspace.export"/>
+        </Menu>
+        <Separator />
+        <Button label="Quit" shortcut="Ctrl+Q" action="action.quit"/>
+    </Menu>
+    <Menu label="Edit">
+        <Button label="Undo" shortcut="Ctrl+Z" action="action.workspace.undo"/>
+        <Button label="Redo" shortcut="Ctrl+Shift+Z" action="action.workspace.redo"/>
+        <Separator/>
+        <Button label="Cut" shortcut="Ctrl+X" action="action.workspace.cut"/>
+        <Button label="Copy" shortcut="Ctrl+C" action="action.workspace.copy"/>
+        <Button label="Paste" shortcut="Ctrl+V" action="action.workspace.paste"/>
+        <Separator />
+        <Menu label="Transform">
+            <!-- TODO: Implement transform menu -->
+        </Menu>
+        <Separator />
+        <Button label="Shortcuts" shortcut="Alt+Ctrl+Shift+K" action="action.settings.shortcuts"/>
+        <Button label="Preferences" shortcut="Ctrl+K" action="action.settings.preferences"/>
+    </Menu>
+    <Menu label="Image">
+        <Menu label="Adjustments">
+            <!-- TODO: Implement Adjustments menu -->
+        </Menu>
+        <Sepatator/>
+        <Button label="Image dimensions" shortcut="Alt+Ctrl+I" action="action.workspace.image.size"/>
+        <Button label="Workspace dimensions" shortcut="Alt+Ctrl+C" action="action.workspace.size"/>
+        <Menu label="Image rotation">
+            <!-- TODO: Implement image rotation menu -->
+        </Menu>
+        <Button label="Crop" shortcut="" action="action.workspace.crop"/>
+    </Menu>
+    <Menu label="Layer">
+        <Menu label="New">
+            <!-- TODO: Implement new layer menu -->
+            <Button label="Layer" shortcut="Shift+Ctrl+N" action="action.workspace.layer.raster.new"/>
+        </Menu>
+        <Button label="Duplicate layer" shortcut="" action="action.workspace.layer.duplicate"/>
+        <Separator/>
+        <Button label="Quick export as PNG" shortcut="Shift+Ctrl+'" action="action.workspace.layer.exportPNG"/>
+        <Button label="Export as..." shortcut="Alt+Shift+Ctrl+'" action="action.workspace.layer.export"/>
+        <Separator/>
+        <Button label="Rename layer" shortcut="" action="action.workspace.layer.rename"/>
+        <Separator/>
+        <Menu label="New adjustment layer">
+            <!-- TODO: Implement new adjustment layer menu -->
+        </Menu>
+        <Separator/>
+        <Button label="Merge layers" shortcut="Ctrl+E" action="action.workspace.mergeLayers"/>
+    </Menu>
+    <Menu label="Select">
+        <Button label="All" shortcut="Ctrl+A" action="action.workspace.selection.all"/>
+        <Button label="Remove selection" shortcut="Ctrl+D" action="action.workspace.selection.remove"/>
+        <Button label="Invert selection" shortcut="Ctrl+Shift+I" action="action.workspace.selection.invert"/>
+        <Separator/>
+        <Button label="Color range" shortcut="" action="action.workspace.selection.colorRange"/>
+        <Button label="Area focus" shortcut="" action="action.workspace.selection.areaFocus"/>
+        <Separator/>
+        <Menu label="Modify">
+            <Button label="Edge" shortcut="" action="action.workspace.selection.modify.edge"/>
+            <Button label="Smooth" shortcut="" action="action.workspace.selection.modify.smooth"/>
+            <Button label="Expand" shortcut="" action="action.workspace.selection.modify.expand"/>
+            <Button label="Contract" shortcut="" action="action.workspace.selection.modify.contract"/>
+        </Menu>
+        <Separator/>
+        <Button label="Transform selection" shortcut="" action="action.workspace.selection.transform"/>
+    </Menu>
+    <Menu label="Filter">
+        <!-- TODO: Implement filter menus -->
+        <Menu label="Blur">
+            <Button label="Gaussian blur" shortcut="" action="action.workspace.layer.filter.blur.gaussian"/>
+        </Menu>
+        <Menu label="Distortion">
+
+        </Menu>
+        <Menu label="Noise">
+            <Button label="Add noise" shortcut="" action="action.workspace.layer.filter.noise.add"/>
+        </Menu>
+        <Separator/>
+        <Menu label="Basic">
+            <Button label="Convolution matrix" shortcut="" action="action.workspace.layer.filter.basic.convolution"/>
+        </Menu>
+    </Menu>
+    <Menu label="View">
+        <Button label="Zoom in" shortcut="Ctrl++" action="action.viewport.zoom.in"/>
+        <Button label="Zoom out" shortcut="Ctrl+-" action="action.viewport.zoom.out"/>
+        <Button label="Reset zoom" shortcut="Ctrl+0" action="action.viewport.zoom.reset"/>
+        <Button label="Rotate" shortcut="Alt+R" action="action.viewport.rotate"/>
+        <Separator/>
+        <Menu label="Snapping">
+
+        </Menu>
+        <Separator/>
+        <Menu label="Guidance lines">
+
+        </Menu>
+    </Menu>
+    <Menu label="Window">
+
+    </Menu>
+    <Menu label="Help">
+        <Button label="Help" shortcut="" action="action.help"/>
+        <Separator/>
+        <Button label="About" shortcut="" action="action.about"/>
+    </Menu>
+</MainMenuBar>

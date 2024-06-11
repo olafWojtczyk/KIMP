@@ -1,0 +1,42 @@
+<editorLayout>
+    <toolSettings width="2.0" height="0.05" layout="horizontal">
+        <toolSettingsMenu/>
+    </toolSettings>
+    <toolBar width="0.03" height="0.95" layout="vertical">
+		<!--toolList-->
+		<Tool newLine="true" action="action.editorTool.move" label="Move" shortcut="V"/>
+		<Tool newLine="true" action="action.editorTool.select" label="Select" shortcut="M"/>
+		<Tool newLine="true" action="action.editorTool.wand" label="Wand" shortcut="W"/>
+		<Tool newLine="true" action="action.editorTool.crop" label="Crop" shortcut="C"/>
+		<Tool newLine="true" action="action.editorTool.brush" label="Brush" shortcut="B"/>
+        <Tool newLine="true" action="action.editorTool.pencil" label="Pencil"/>
+		<Tool newLine="true" action="action.editorTool.eraser" label="Erase" shortcut="E"/>
+        <Tool newLine="true" action="action.editorTool.fill" label="Fill" shortcut="G"/>
+        <Tool newLine="true" action="action.editorTool.gradient" label="Gradient"/>
+        <Tool newLine="true" action="action.editorTool.rectangle" label="Rectangle" shortcut="U"/>
+        <Tool newLine="true" action="action.editorTool.circle" label="Circle"/>
+        <Tool newLine="true" action="action.editorTool.hexagon" label="Hexagon"/>
+        <Tool newLine="true" action="action.editorTool.star" label="Star"/>
+        <Tool newLine="true" action="action.editorTool.line" label="Line"/>
+        <Tool newLine="true" action="action.editorTool.colorPicker" label="Pipette" shortcut="I"/>
+        <Tool newLine="true" action="action.editorTool.view" label="Hand" shortcut="H"/>
+        <Tool newLine="true" action="action.editorTool.zoom" label="Zoom" shortcut="Z"/>
+		<!--/toolList-->
+        <separator/>
+        <colorSelector/>
+    </toolBar>
+    <editor width="0.72" height="0.85" layout="horizontal">
+        <viewport/>
+    </editor>
+    <colorMenu width="0.35" height="0.3325" layout="horizontal">
+        <colorPicker/>
+    </colorMenu>
+    <propertiesMenu width="0.35" height="0.3325" layout="horizontal">
+        <properties/>
+    </propertiesMenu>
+    <layersMenu width="0.35" height="0.38" layout="vertical" dock="true">
+        <layerProperties/>
+        <layerList/>
+        <layersOptions/>
+    </layersMenu>
+</editorLayout>
