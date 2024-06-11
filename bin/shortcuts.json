@@ -1,0 +1,17 @@
+{
+  "keys": [
+    {"shortcut": "Ctrl+N", "command": "action.file.new"},
+    {"shortcut":  "Ctrl+O", "command": "action.file.open"},
+    {"shortcut":  "Ctrl+S", "command": "action.file.save"},
+    {"shortcut":  "Ctrl+Shift+S", "command": "action.file.saveAs"},
+    {"shortcut":  "Ctrl+F4", "command": "action.exit"},
+    {"shortcut":  "Ctrl+D", "command": "action.workspace.selection.remove"},
+    {"shortcut":  "Ctrl+Shift+I", "command": "action.workspace.selection.invert"},
+    {"shortcut":  "V", "command":  "action.editorTool.move"},
+    {"shortcut":  "M", "command":  "action.editorTool.select"},
+    {"shortcut":  "W", "command":  "action.editorTool.wand"},
+    {"shortcut":  "I", "command":  "action.editorTool.colorPicker"},
+    {"shortcut":  "H", "command":  "action.editorTool.view"},
+    {"shortcut":  "Z", "command":  "action.editorTool.zoom"}
+  ]
+}
